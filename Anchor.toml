@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+chainlink_solana_dapp = "2uY8SZ8VmqAP8t397jUWcXnJ8a5kcn5djgxzjHXFLCMv"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "./id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
