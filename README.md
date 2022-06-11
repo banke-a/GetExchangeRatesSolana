@@ -1,2 +1,2 @@
 # GetExchangeRatesSolana
-Retrieve real time exchanges using chainlink on solana blockchain
+Retrieve real time exchange rates using chainlink on solana blockchain
